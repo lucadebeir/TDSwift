@@ -53,6 +53,15 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         performSegue(withIdentifier: "showPerson", sender: self)
     }
     
+    func tableView(_ tableView: UITableView, trailingSwipeActionsConfigurationForRowAt indexPath: IndexPath) -> UISwipeActionsConfiguration? {
+        let supprimerVoyage = UIContextualAction(style: .destructive, title: "Supprimer") {(action, view, nil) in print("Supprimer")}
+        supprimerVoyage.image = UIImage(named:"Trash")
+        let modifierVoyage = UIContextualAction(style: .normal, title: "Modifier") {(action, view, nil) in print("Modifier")}
+        modifierVoyage.backgroundColor = #colorLiteral(red: 0.9411764741, green: 0.4980392158, blue: 0.3529411852, alpha: 1)
+        modifierVoyage.image = UIImage(named:"Trash")
+        return UISwipeActionsConfiguration(actions: [supprimerVoyage, modifierVoyage])
+    }
+    
     var count: Int {
         return self.persons!.count
     }
