@@ -10,6 +10,13 @@
 		F32F5F8E223FC74E003BD407 /* PersonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F32F5F8D223FC74E003BD407 /* PersonTests.swift */; };
 		F32F5F912240F06D003BD407 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F32F5F902240F06D003BD407 /* TableViewController.swift */; };
 		F32F5F94224100F7003BD407 /* ModelTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F32F5F93224100F7003BD407 /* ModelTableView.swift */; };
+		F334810F22421F2200BD5E03 /* AddTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F334810E22421F2200BD5E03 /* AddTableViewController.swift */; };
+		F33481152242240300BD5E03 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F33481142242240300BD5E03 /* TableViewCell.swift */; };
+		F334816122424B2000BD5E03 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F334816022424B2000BD5E03 /* CoreDataManager.swift */; };
+		F33481642243144200BD5E03 /* FormValidatorHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F33481632243144200BD5E03 /* FormValidatorHelper.swift */; };
+		F33481662243146600BD5E03 /* DialogBoxHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F33481652243146600BD5E03 /* DialogBoxHelper.swift */; };
+		F33481682243149E00BD5E03 /* NotificationHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F33481672243149E00BD5E03 /* NotificationHelper.swift */; };
+		F334816A2244FEF700BD5E03 /* EditTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F33481692244FEF700BD5E03 /* EditTableViewController.swift */; };
 		F3D0A305223812D600D1DEF6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3D0A304223812D600D1DEF6 /* AppDelegate.swift */; };
 		F3D0A307223812D600D1DEF6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3D0A306223812D600D1DEF6 /* ViewController.swift */; };
 		F3D0A30A223812D600D1DEF6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3D0A308223812D600D1DEF6 /* Main.storyboard */; };
@@ -18,7 +25,7 @@
 		F3D0A312223812D900D1DEF6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3D0A310223812D900D1DEF6 /* LaunchScreen.storyboard */; };
 		F3D0A31D223812D900D1DEF6 /* TD1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3D0A31C223812D900D1DEF6 /* TD1Tests.swift */; };
 		F3D0A328223812D900D1DEF6 /* TD1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3D0A327223812D900D1DEF6 /* TD1UITests.swift */; };
-		F3D0A338223817A400D1DEF6 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3D0A337223817A400D1DEF6 /* Person.swift */; };
+		F3D0A338223817A400D1DEF6 /* PersonExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3D0A337223817A400D1DEF6 /* PersonExtension.swift */; };
 		F3D0A33A223956AF00D1DEF6 /* PersonSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3D0A339223956AF00D1DEF6 /* PersonSet.swift */; };
 /* End PBXBuildFile section */
 
@@ -43,6 +50,13 @@
 		F32F5F8D223FC74E003BD407 /* PersonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonTests.swift; sourceTree = "<group>"; };
 		F32F5F902240F06D003BD407 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		F32F5F93224100F7003BD407 /* ModelTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelTableView.swift; sourceTree = "<group>"; };
+		F334810E22421F2200BD5E03 /* AddTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTableViewController.swift; sourceTree = "<group>"; };
+		F33481142242240300BD5E03 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		F334816022424B2000BD5E03 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		F33481632243144200BD5E03 /* FormValidatorHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormValidatorHelper.swift; sourceTree = "<group>"; };
+		F33481652243146600BD5E03 /* DialogBoxHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DialogBoxHelper.swift; sourceTree = "<group>"; };
+		F33481672243149E00BD5E03 /* NotificationHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationHelper.swift; sourceTree = "<group>"; };
+		F33481692244FEF700BD5E03 /* EditTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditTableViewController.swift; sourceTree = "<group>"; };
 		F3D0A301223812D600D1DEF6 /* TD1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TD1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3D0A304223812D600D1DEF6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F3D0A306223812D600D1DEF6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -57,7 +71,7 @@
 		F3D0A323223812D900D1DEF6 /* TD1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TD1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3D0A327223812D900D1DEF6 /* TD1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TD1UITests.swift; sourceTree = "<group>"; };
 		F3D0A329223812D900D1DEF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F3D0A337223817A400D1DEF6 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		F3D0A337223817A400D1DEF6 /* PersonExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonExtension.swift; sourceTree = "<group>"; };
 		F3D0A339223956AF00D1DEF6 /* PersonSet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonSet.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -89,8 +103,7 @@
 		F32F5F8F2240F017003BD407 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				F3D0A306223812D600D1DEF6 /* ViewController.swift */,
-				F32F5F902240F06D003BD407 /* TableViewController.swift */,
+				F3348113224223A200BD5E03 /* Person */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -98,9 +111,58 @@
 		F32F5F92224100D4003BD407 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				F33481622243141400BD5E03 /* Helpers */,
+				F33481122242239C00BD5E03 /* Person */,
 				F32F5F93224100F7003BD407 /* ModelTableView.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		F33481102242234400BD5E03 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				F33481112242234E00BD5E03 /* Person */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		F33481112242234E00BD5E03 /* Person */ = {
+			isa = PBXGroup;
+			children = (
+				F33481142242240300BD5E03 /* TableViewCell.swift */,
+			);
+			path = Person;
+			sourceTree = "<group>";
+		};
+		F33481122242239C00BD5E03 /* Person */ = {
+			isa = PBXGroup;
+			children = (
+				F3D0A337223817A400D1DEF6 /* PersonExtension.swift */,
+				F3D0A339223956AF00D1DEF6 /* PersonSet.swift */,
+			);
+			path = Person;
+			sourceTree = "<group>";
+		};
+		F3348113224223A200BD5E03 /* Person */ = {
+			isa = PBXGroup;
+			children = (
+				F3D0A306223812D600D1DEF6 /* ViewController.swift */,
+				F32F5F902240F06D003BD407 /* TableViewController.swift */,
+				F334810E22421F2200BD5E03 /* AddTableViewController.swift */,
+				F33481692244FEF700BD5E03 /* EditTableViewController.swift */,
+			);
+			path = Person;
+			sourceTree = "<group>";
+		};
+		F33481622243141400BD5E03 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				F334816022424B2000BD5E03 /* CoreDataManager.swift */,
+				F33481632243144200BD5E03 /* FormValidatorHelper.swift */,
+				F33481652243146600BD5E03 /* DialogBoxHelper.swift */,
+				F33481672243149E00BD5E03 /* NotificationHelper.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 		F3D0A2F8223812D500D1DEF6 = {
@@ -126,6 +188,7 @@
 		F3D0A303223812D600D1DEF6 /* TD1 */ = {
 			isa = PBXGroup;
 			children = (
+				F33481102242234400BD5E03 /* Cells */,
 				F32F5F92224100D4003BD407 /* Model */,
 				F32F5F8F2240F017003BD407 /* Controller */,
 				F3D0A304223812D600D1DEF6 /* AppDelegate.swift */,
@@ -134,8 +197,6 @@
 				F3D0A310223812D900D1DEF6 /* LaunchScreen.storyboard */,
 				F3D0A313223812D900D1DEF6 /* Info.plist */,
 				F3D0A30B223812D600D1DEF6 /* TD1.xcdatamodeld */,
-				F3D0A337223817A400D1DEF6 /* Person.swift */,
-				F3D0A339223956AF00D1DEF6 /* PersonSet.swift */,
 			);
 			path = TD1;
 			sourceTree = "<group>";
@@ -293,10 +354,17 @@
 				F32F5F94224100F7003BD407 /* ModelTableView.swift in Sources */,
 				F3D0A33A223956AF00D1DEF6 /* PersonSet.swift in Sources */,
 				F32F5F912240F06D003BD407 /* TableViewController.swift in Sources */,
+				F334816A2244FEF700BD5E03 /* EditTableViewController.swift in Sources */,
+				F33481152242240300BD5E03 /* TableViewCell.swift in Sources */,
 				F3D0A30D223812D600D1DEF6 /* TD1.xcdatamodeld in Sources */,
+				F33481662243146600BD5E03 /* DialogBoxHelper.swift in Sources */,
+				F33481682243149E00BD5E03 /* NotificationHelper.swift in Sources */,
+				F33481642243144200BD5E03 /* FormValidatorHelper.swift in Sources */,
 				F3D0A307223812D600D1DEF6 /* ViewController.swift in Sources */,
-				F3D0A338223817A400D1DEF6 /* Person.swift in Sources */,
+				F3D0A338223817A400D1DEF6 /* PersonExtension.swift in Sources */,
 				F3D0A305223812D600D1DEF6 /* AppDelegate.swift in Sources */,
+				F334816122424B2000BD5E03 /* CoreDataManager.swift in Sources */,
+				F334810F22421F2200BD5E03 /* AddTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

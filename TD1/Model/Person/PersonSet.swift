@@ -8,7 +8,7 @@
 
 import Foundation
 
-class PersonSet : Sequence {
+/*class PersonSet : Sequence {
     
     fileprivate var listPersonSet : [Person] = []
     
@@ -28,6 +28,10 @@ class PersonSet : Sequence {
     /// crée un ensemble de personnes contenant les Person du tableau passé en paramètre
     init(listPersonSet: [Person]) {
         self.listPersonSet = listPersonSet
+    }
+    
+    func getListPersonSet() -> [Person]? {
+        return self.listPersonSet
     }
     
     /// PersonSet→ Bool
@@ -205,4 +209,4 @@ struct ItPersonSet : IteratorProtocol {
     public var end : Bool {
         return self.current<self.set.count
     }
-}
+}*/
