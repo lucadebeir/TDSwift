@@ -1,2 +1,2 @@
-# ProjetSwift
-Projet Swift 2019 - DEBEIR Luca &amp; SERAFIN Solène
+# TDSwift
+TD Swift 2019 - DEBEIR Luca &amp; SERAFIN Solène
